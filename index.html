@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- 
+      author: Ibrahim Abdsaid Hanna
+              ibrahim.seniore@gmail.com
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Calccedo,calccedo,Java calculation framework,Java calculation framework Library,Java calculation library,calccedoLibrary,calccedoLibrary,Calcedo Engine Library,Calccedo library,Java calculation">
+    <meta name="description" content="Calccedo Library is calculation engine library built using Java language to help developers for building applications that need complex mathematical equations, Calccedo is not just library, it is work as interpreter and act as AI engines">
+    <meta name="author" content="Ibrahim Abdsaid Hanna;ibrahim.seniore@gmail.com">
+    <link rel="icon" href="resources/header/calccedo-logo.jpg">
+    <title>Calccedo-V2</title>
+    
+      <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">    
+     <!-- JQuery core JS -->
+     <script src = "js/jquery/jquery.min.js"></script>
+      <!-- Modernizer core JS -->
+      <script src="js/modernizer/modernizr.js"></script>
+    <!-- tether core JS -->
+    <script src = "js/tether/tether.min.js"></script>
+     <!-- Bootstrap core JS -->
+    <script src = "js/bootstrap/bootstrap.min.js"></script>
+     <!-- Calccedo custom CSS -->
+     <link href="custom/css/calccedo-index.css" rel="stylesheet">
+    <!-- Calccedo custom JS -->
+    <script src = "custom/js/calccedo-index.js"></script>
+    <script src = "custom/js/onload.js"></script>
+</head>
+
+<body style="background-color: #eaf6ea;" onload="onloadHome();">
+        
+  <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded nav-colors">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" style="font-weight: bold;color: #5cb85c;"  href="index.html">Calccedo</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+          <a class="nav-link" style="font-weight: bold" href="javadoc-calccedo-v2/index.html" target="blank">Java Documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-weight: bold" id="install_Link" href="#">Install</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-weight: bold" id="features_Link" href="#">Features</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" style="font-weight: bold" id="development_Link" href="#">Development</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" style="font-weight: bold" id="contact_Link" href="#">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="cursor: pointer">Search</button>
+    </form>
+  </div>
+</nav> <!-- end of navbar -->
+
+   <div id="home" class="container-fluid container-fluid-custom"> 
+ <div id="calccedo-carouselIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#calccedo-carouselIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#calccedo-carouselIndicators" data-slide-to="1"></li>
+    <li data-target="#calccedo-carouselIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+        <img class="d-block img-fluid cover-header" src="resources/header/background/calccedo-cover-1.jpg" alt="First slide">
+    <div class="carousel-caption">
+    <h3>Delicious</h3>
+    <p class="cover-content-p">Calccedo distinguished by easy fast development</p>
+   </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid cover-header" src="resources/header/background/calccedo-cover-2.jpg" alt="Second slide">
+      <div class="carousel-caption">
+      <h3>Customizable</h3>
+      <p class="cover-content-p">Calccedo more flexible in adding custom operands</p>
+     </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid cover-header" src="resources/header/background/calccedo-cover-3.jpg" alt="Third slide">
+     <div class="carousel-caption">
+      <h3>Smart</h3>
+      <p class="cover-content-p">Calccedo can calculate thousand millions of complicated distributed operations</p>
+     </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#calccedo-carouselIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#calccedo-carouselIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>  <!-- End of carousel cover headers  -->
+
+  <div id="home" class="container-fluid container-fluid-custom"> 
+    <div class="row">
+    <div class="col-md-12">          
+ <div class="jumbotron jumbotron-custom">
+<h1 align="center" style="color: orange;"> Calccedo-V2 is the next Revolution </h1> 
+  <div id="calccedo-introduction">   
+  <h5 class="display-3" style="font-weight: bold;">Introduction</h5>
+  <p class="lead">
+      Calccedo-v2 is the next revolution of calccedo, it support many features like addSemantic, like add addVariable, like addConstant, like injectFunction 
+  </p>  <!-- End of calccedo introduction -->  
+  </div>
+  
+     
+
+
+
+              
+              
+          </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+  
+  <p class="jumbtorn-separator"/>
+  
+  <div id="install">  
+  <h5 style="font-weight: bold;">Install</h5>
+  <p>Install using Apache Maven</p>
+  <img src="resources/icons/maven-logo.png" class="logo-install-maven"/>
+  <xmp>
+     <dependency>
+      <groupId>com.github.ibrahim1hero1</groupId>
+      <artifactId>calccedo</artifactId>
+      <version>2.0-SNAPSHOT</version>
+     </dependency>
+ </xmp>  <!-- End of how to install calccedo using apache maven -->
+ <p>Install using jar and add it to project class path</p>
+ <img src="resources/icons/dropbox-logo.png" class="logo-install-dropbox"/>
+ <br/>
+ <a href="https://www.dropbox.com/s/isv1m1aok7dtijj/Calccedo-V2.0EngineLibrary.zip?dl=0" target="blank">
+     https://www.dropbox.com/s/isv1m1aok7dtijj/Calccedo-V2.0EngineLibrary.zip?dl=0
+ </a>   <!-- End of download calccedo using Dropbox -->
+ </div>
+  
+ <p class="jumbtorn-separator"/>
+ 
+ 
+  <div id="features">  
+  <h5 class="display-3" style="font-weight: bold;">Features</h5>
+  <ul>
+      <li>solve formulas, functions and complicated algorithms  </li>
+      <li>add semantics like Sin(30) = 0.5 , akw(10)=1 , akw(101) = Error </li>
+      <li>add variables like x=10 , y =20 , z =x+y</li>
+      <li>add constants like PI = 3.14 , Li(Lithium)=3, Na(soʊdiəm) =11 </li>
+      <li>inject functions like f(x)=x^2+2x+1 </li>
+      <li>support (sinh , cosh , tanh)</li>
+      <li>support (asin , acos , atan)</li>
+      <li>support (pi , PI) as a 3.14</li>
+      <li>support (In(1)=0)</li>
+      <li>support Radians and Degrees for Angels calculation</li>
+      <li>you can build complicated mathematical application using Calccedo-V2</li>
+      <li>Claccedo make you happy</li>
+  </ul>
+  </div>
+
+ 
+ 
+ <p class="jumbtorn-separator"/>
+
+ 
+  <div id="development">  
+  <h5 class="display-3" style="font-weight: bold;">Development</h5>
+  <p class="paragrap-header">Calculate simple operation</p>
+   <div style="background-color: white">  
+  <xmp>
+import com.precious.calccedo.handlers.CalccedoHandler;
+/**
+ *
+ * @author Ibrahim
+ */   
+    public class TestCalccedo extends CalccedoHandler{
+    
+    public TestCalccedo(){
+      super.enableDeepTrace(true);
+    }
+    
+    public static void main(String [] args){
+      TestCalccedo calccedoHandler = new TestCalccedo();
+      String formula = "1+5+sin(30)+20+70+80+90";
+      String result = calccedoHandler.calculate(formula);
+      System.out.println(result);
+    }
+}
+
+  </xmp>
+   </div>
+  <p class="paragrap-header">Add Semantic to calccedo, hint semantic replace addCustomOperand in calccedo v1</p>
+  <article class="paragrap-header">
+       <p class="line-height-small">
+       sometimes you need to add custom operand as a constant like Sin(30)=0.5 and because calccedo works only with Radians Degree
+       </br>
+       if you run Math.sin(30) in Java JDK standard it it will return 1.444444449 but in Algebra Math it should return 0.5
+        </br>
+        calccedo offers four overloaded methods to add custom operand as a constant to ignore standard result that Java JRE produce 
+        </br>
+        </br>
+          important!
+        </br>
+        Custom operand you will add can accept any length of charchaters, like celsius(10)= 10.131550 rather than v1 it should take three chars
+        </br>
+         Woooooooooooooooooooooooooooooooooooooooow Calcedo V2 solve this issue
+      
+         </br>
+         </br>
+        <xmp>
+        addSemantic(String semanticName,int quoteNumber,double value);
+        addSemantic(String semanticName,double quoteNumber,double value);
+        addSemantic(String semanticName,int quoteNumber,Object object);
+        addSemantic(String semanticName,double quoteNumber,Object object);
+        </xmp> 
+        important!
+         </br>
+         in calccedo v1 it is not allowed: to add subset of custom operand that added before
+         <br/>
+         if you add sin(30)=0.5 , it is not allowed to add asin(30)=50
+         <br/>
+         because asin is a subset of sin word which added before
+         </br>
+         </br>
+          calccedo-V2 solve this issues now you can add sin(30)=0.5 and asin(30)=1.1254566
+          <br/>
+          
+       </p>
+   </article>
+ 
+  
+    Adding Sin(30) to calccedo as a semantic Sin(30)=0.5
+     <div style="background-color: white">  
+ <xmp>
+import com.precious.calccedo.handlers.CalccedoHandler;
+/**
+ *
+ * @author Ibrahim
+ */    
+ public class TestCalccedo extends CalccedoHandler{
+    
+    public TestCalccedo(){
+      super.enableDeepTrace(false);
+      super.addSemantic("Sin",30,0.5);
+      super.addSemantic("Sin",30.0,0.5);
+    }
+    
+    public static void main(String [] args){
+      TestCalccedo calccedoHandler = new TestCalccedo();
+      String formula = "Sin(30)";
+      String result = calccedoHandler.calculate(formula);
+      System.out.println(result);
+    }
+}
+
+  </xmp>
+     </div>
+      Adding Tan(90) to calccedo as an Illegal custom operand Tan(90)=Error
+      <div style="background-color: white">    
+   <xmp>
+import com.precious.calccedo.handlers.CalccedoHandler;
+import com.precious.calccedo.handlers.Infinity;
+/**
+ *
+ * @author Ibrahim
+ */
+public class TestCalccedo extends CalccedoHandler{
+    
+    public TestCalccedo(){
+      super.enableDeepTrace(false);
+      super.addSemantic("Tan",90,Infinity.class);
+      super.addSemantic("Tan",90.0,Infinity.class);
+    }
+    
+    public static void main(String [] args){
+      TestCalccedo calccedoHandler = new TestCalccedo();
+      String formula = "Tan(90)";
+      String result = calccedoHandler.calculate(formula);
+      System.out.println(result);
+    }
+}
+
+  </xmp>
+      </div>
+  </div>
+ 
+ 
+  
+  
+ <p class="paragrap-header">Calculate complicated operation</p>
+   <div style="background-color: white">  
+  <xmp>
+import com.precious.calccedo.handlers.CalccedoHandler;
+/**
+ *
+ * @author Ibrahim
+ */   
+    public class TestCalccedo extends CalccedoHandler{
+    
+    public TestCalccedo(){
+      super.enableDeepTrace(true);
+    }
+    
+    public static void main(String [] args){
+      TestCalccedo calccedoHandler = new TestCalccedo();
+      String formula = "(5(1+2)+3sin(30cos(30+30))+(5*7+10%2)+(10^21+5E10)/5)";
+      String result = calccedoHandler.calculate(formula);
+      System.out.println(result);
+    }
+}
+  </xmp>
+   </div>
+  
+   
+       
+    <p class="paragrap-header">Adding Variable</p>
+     <div style="background-color: white">  
+          <xmp>
+import com.precious.calccedo.handlers.CalccedoHandler;
+/**
+ *
+ * @author Ibrahim
+ */
+public class TestCalccedo extends CalccedoHandler{
+    
+    public TestCalccedo(){
+      super.enableDeepTrace(true);
+      super.addVariable("x", 3);
+      super.addVariable("y", 3);
+    }
+    
+    public static void main(String [] args){
+      TestCalccedo calccedoHandler = new TestCalccedo();
+      String formula = "x+y";
+      String result = calccedoHandler.calculate(formula);
+      System.out.println(result);
+    }
+}
+
+  </xmp>
+     </div>
+        
+    
+     <p class="paragrap-header">Adding Constant</p>
+     <div style="background-color: white">  
+          <xmp>
+import com.precious.calccedo.handlers.CalccedoHandler;
+/**
+ *
+ * @author Ibrahim
+ */
+public class TestCalccedo extends CalccedoHandler{
+    
+    public TestCalccedo(){
+      super.enableDeepTrace(true);
+      super.addConstant("sat", 1);
+      super.addConstant("sun", 2);
+      super.addConstant("mon", 3);
+      super.addConstant("tue", 4);
+      super.addConstant("wed", 5);
+      super.addConstant("thu", 6);
+      super.addConstant("fri", 7);
+     
+    }
+    
+    public static void main(String [] args){
+      TestCalccedo calccedoHandler = new TestCalccedo();
+      String formula = "sat + sun + mon + tue + wed + thu + fri";
+      String result = calccedoHandler.calculate(formula);
+      System.out.println(result);
+    }
+}
+
+  </xmp>
+     </div>
+    
+     
+      <p class="paragrap-header">Inject Function</p>
+         calccedo so easy to calculate function formula like f(x) = x^2+2x+1 calccedo make it easy 
+         <br/>
+         first step: we will create class that implement method that do function formula
+     <div style="background-color: white"> 
+          <xmp>
+/**
+ *
+ * @author Ibrahim
+ */
+public class Equations {
+
+    /* implement fn(x) = x^2+2x+1
+       important! each time you want to implement function, you should follow this standard steps in calccedo 
+       which mean you should declare method as it is methodName(Number... numbers) for every function you want to inject
+    */
+    
+    
+   public double fn(Number...  numbers){
+      double result=0; 
+      result = numbers[0]^2 + 2*numbers[0] + 1;  
+      return result;
+    }    
+    
+}
+
+  </xmp>  
+     </div>
+     
+    
+
+         second step: create class that inject function from previous class 
+          <div style="background-color: white"> 
+                   <xmp>
+import com.precious.calccedo.handlers.CalccedoHandler;
+/**
+ *
+ * @author Ibrahim
+ */
+public class TestCalccedo extends CalccedoHandler{
+    
+    public TestCalccedo(){
+       super.enableDeepTrace(true);
+       
+       /*
+          inject function using method name [fn] that declared in Equation class
+       */
+       super.injectFunction(Equations.class,"fn");
+       
+       /*
+          you can also rename injectedFunction to any name you want like this: 
+       */
+       super.injectFunction("fun",Equations.class,"fn");
+    }
+    
+    public static void main(String [] args){
+    
+     TestCalccedo calccedoHandler = new TestCalccedo();
+     
+      String formula = "fn(50)";
+      String result = calccedoHandler.calculate(formula);
+      System.out.println(result);
+      
+      
+      // in this case you will notice that calccedo handle fun(50) as fn(50) because they are reference to same function
+      formula = "fun(50)";
+      String result = calccedoHandler.calculate(formula);
+
+      System.out.println(result);
+    }
+}
+
+  </xmp>
+     </div>    
+         
+      
+      <p class="paragrap-header">All operations that calccedo-v2 can do</p>
+ <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Operation name</th>
+      <th>Example</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">+</th>
+      <td>Addition</td>
+      <td>1+2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">-</th>
+      <td>Subtraction</td>
+      <td>80-10</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th scope="row">*</th>
+      <td>Multiplication</td>
+      <td>5*5</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th scope="row">/</th>
+      <td>Deviation</td>
+      <td>27/3</td>
+      <td>9</td>
+    </tr>
+     <tr>
+      <th scope="row">%</th>
+      <td>Reminder</td>
+      <td>5393%3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">^</th>
+      <td>Power</td>
+      <td>2^5</td>
+      <td>32</td>
+    </tr>
+      <tr>
+      <th scope="row"><></th>
+      <td>Sqrt</td>
+      <td><9></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">( )</th>
+      <td>Parenthesis </td>
+      <td>(1+1(5*5))</td>
+      <td>26</td>
+    </tr>
+     <tr>
+      <th scope="row">Sin</th>
+      <td>sin </td>
+      <td>sin(30)</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th scope="row">Cos</th>
+      <td>cos </td>
+      <td>cos(60)</td>
+      <td>0.5</td>
+    </tr>
+     <tr>
+      <th scope="row">Tan</th>
+      <td>tan</td>
+      <td>tan(45)</td>
+      <td>1</td>
+    </tr>
+     <tr>
+      <th scope="row">Log</th>
+      <td>log</td>
+      <td>log(10)</td>
+      <td>1</td>
+    </tr>
+     <tr>
+      <th scope="row">Sinh</th>
+      <td>sinh</td>
+      <td>sinh(0)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">Cosh</th>
+      <td>cosh</td>
+      <td>cosh(0)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">Tanh</th>
+      <td>tanh</td>
+      <td>tanh(0)</td>
+      <td>0</td>
+    </tr>
+     <tr>
+      <th scope="row">Asin</th>
+      <td>asin</td>
+      <td>asin(0)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">Acos</th>
+      <td>acos</td>
+      <td>acos(1)</td>
+      <td>1.5533421480573115</td>
+    </tr>
+    <tr>
+      <th scope="row">Atan</th>
+      <td>atan</td>
+      <td>atan(0)</td>
+      <td>0</td>
+    </tr>
+     <tr>
+      <th scope="row">In</th>
+      <td>in</td>
+      <td>in(1)</td>
+      <td>0</td>
+    </tr>
+     <tr>
+      <th scope="row">E</th>
+      <td>Power 10</td>
+      <td>5E10</td>
+      <td>50000000000</td>
+    </tr>
+    <tr>
+      <th scope="row">pi</th>
+      <td>constant of (pi)</td>
+      <td>2pi</td>
+      <td>2 * 3.14</td>
+    </tr>
+    <tr>
+      <th scope="row">PI</th>
+      <td>constant of (PI)</td>
+      <td>3PI</td>
+      <td>3 * 3.14</td>
+    </tr>
+    
+    
+  </tbody>
+</table>
+
+        <div id="contact">
+            <h5 class="display-3" style="font-weight: bold;">Contact</h5>
+            <p class="jumbtorn-separator"/>
+            <img src="resources/users/ibrahim.jpg" class="contact-user-photo"/>
+            <p class="paragrap-header">Author: Ibrahim Abdsaid Hanna</p>
+            <p class="paragrap-header">Email: ibrahim.seniore@gmail.com</p>
+            <p class="paragrap-header">Github: <a href="https://github.com/calccedo/Calccedo-v2.0" target="blank">https://github.com/calccedo/Calccedo-v2.0</a></p>
+            <p class="paragrap-header">Blog: <a href="https://ibrahim1hero1-calccedo.blogspot.com.eg/" target="blank">https://ibrahim1hero1-calccedo.blogspot.com.eg/</a></p>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+  </div>
+  <footer class="footer footer-custom">
+      <div class="container footer-div">
+          <div class="row">
+              <div class="col-md-8 footer-custom">
+                 <span class="footer-text">Author@Ibrahim Abdsaid Hanna</span>
+                 <a href="https://github.com/calccedo" target="blank"><img src="resources/social/github.png?2" class="footer-social-icon"/> </a>
+                 <a href="https://ibrahim1hero1-calccedo.blogspot.com.eg/" target="blank"><img src="resources/social/blog.png?1" class="footer-social-icon"/> </a>                    
+              </div>
+              <div class="col-md-4 footer-custom">
+                 <span class="footer-text">Copyrights@2026 @All Rights Reserved</span>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+   </body>
+</html>
